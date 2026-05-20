@@ -1,7 +1,7 @@
 [build]
-builder = "NIXPACKS"
-buildCommand = "npm install"
+  builder = "NIXPACKS"
+  nixpacksConfigPath = "railway.nixpacks.json"
 
 [deploy]
-startCommand = "node server.js"
-healthcheckPath = "/health"
+  startCommand = "./server"
+  healthcheckPath = "/health"

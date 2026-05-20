@@ -1,0 +1,6 @@
+{
+  "buildCommand": "go build -o server main.go",
+  "runCommand": "./server",
+  "language": "go",
+  "version": "1.21"
+}
