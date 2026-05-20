@@ -1,0 +1,4 @@
+#!/bin/bash
+curl -s -X POST 'https://open.larksuite.com/open-apis/bot/v2/hook/46860d9b-4b86-4de6-9fc7-ba65c38d28f9' \
+  -H 'Content-Type: application/json' \
+  -d '{"msg_type":"text","content":{"text":"[14:16] ✅ Phase 0 完成 — Flutter+Flame 项目初始化\n\n✅ 完成任务:\n- flutter create (com.occupationcards)\n- 依赖安装: flame 1.37/flame_audio 2.12/go_router/provider/shared_preferences/google_fonts\n- 视觉常量: lib/game/constants.dart (深空商务风配色/尺寸/阴影/动画时长)\n- FlameGame 骨架: lib/game/game.dart\n- 主入口: lib/main.dart (GameWidget + 固定分辨率适配)\n- flutter analyze: 0 issues\n- iOS构建: Runner.app (19.3s)\n\n📁 目录结构:\nlib/\n├── main.dart\n├── game/\n│   ├── constants.dart (全量视觉常量)\n│   └── game.dart (FlameGame骨架)\n├── data/ (空，待Phase1填充)\n├── models/ (空，待Phase1填充)\n├── screens/ (空，待Phase5)\n└── services/ (空，待Phase5)\n\n🔜 下一步: Phase 1 — 卡牌数据层 + 精美卡牌渲染组件\n- 创建 CardData/Keyword/Profession 数据模型\n- 创建 CardRegistry 单例注册表\n- 定义 13 张核心卡牌数据\n- 精美卡牌渲染 (稀有度配色/双线描边/悬浮动画)"}}'

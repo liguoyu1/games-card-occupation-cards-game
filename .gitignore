@@ -1,0 +1,25 @@
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+.packages
+.pub-cache/
+build/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner/Flutter/
+
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+server/node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
