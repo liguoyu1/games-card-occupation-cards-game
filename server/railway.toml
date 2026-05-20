@@ -1,6 +1,5 @@
 [build]
-  builder = "NIXPACKS"
-  nixpacksConfigPath = "railway.nixpacks.json"
+  dockerfilePath = "Dockerfile"
 
 [deploy]
   startCommand = "./server"
